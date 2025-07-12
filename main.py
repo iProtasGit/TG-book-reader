@@ -9,7 +9,7 @@ from database.database import init_db
 from handlers.other import other_router
 from handlers.user import user_router
 from keyboards.menu_commands import set_main_menu
-from services.file_handling import prepare_book
+from services.file_handing import prepare_book
 
 logger = logging.getLogger(__name__)
 
